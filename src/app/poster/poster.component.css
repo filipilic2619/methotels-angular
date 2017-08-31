@@ -1,0 +1,47 @@
+.bigimage {
+    position: relative;
+    background-image: url(../../assets/slika.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    top:98px;
+
+
+}
+
+.dots {
+   position: relative;
+
+
+}
+.dot {
+
+   width: 3%;
+   display: inline-block;
+   background-color: rgba(255, 255, 255, 0.54);
+   height: 8px;
+   margin-top: 520px;
+   margin-right: 20px;
+
+   cursor: pointer;
+}
+
+.dot:hover {
+   background-color: rgb(255, 255, 255);
+}
+
+.dot1{
+   width: 3%;
+   display: inline-block;
+
+   height: 8px;
+   margin-top: 520px;
+   margin-right: 20px;
+
+   cursor: pointer;
+   background-color: rgb(255, 255, 255);
+}
+
+#dot1 {
+   margin-left: 43%;
+}

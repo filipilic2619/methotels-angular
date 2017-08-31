@@ -1,0 +1,47 @@
+.footer {
+    position: relative;
+    background-color: #2c3e50;
+    height: 250px;
+    width: 100%;
+    top:45px;
+    padding: 0;
+    border-top: 2px solid #17385a;
+
+}
+.social {
+    position: relative;
+    width: 63%;
+
+    margin-left: 37%;
+    margin-top: 20px;
+}
+.icons {
+
+    width: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.icons:hover {
+
+}
+
+.subfooter {
+    display: inline-block;
+    width: 27.8%;
+    text-align: justify;
+    color: #ecf0f1;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.sign {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    color: #ecf0f1;
+    font-size: 12px;
+    font-weight: bold;
+}
+
