@@ -1,0 +1,32 @@
+<div class="main">
+  
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="povrsina">Kvadratura: </label>
+      <input type="text" id="povrsina" class="form-control" [(ngModel)]="povrsina" (keyup)="0"/>
+    </div>
+    <div class="form-group">
+      <label for="krevet">Broj kreveta: </label>
+      <input type="text" id="krevet" class="form-control" [(ngModel)]="krevet" (keyup)="0"/>
+    </div>
+  </form>
+  
+  <br/>
+  
+  <table class="table table-stripped">
+    <thead>
+    <tr>
+      <td><strong>Broj sobe</strong></td>
+      <td><strong>Broj kreveta</strong></td>
+      <td><strong>Površina sobe</strong></td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let soba of sobe | povrsina: povrsina | krevet: krevet">
+      <td>{{sobe.broj}}</td>
+      <td>{{sobe.krevet}}</td>
+      <td>{{sobe.povrsina}}</td>
+    </tr>
+    </tbody>
+  </table>
+  </div>
